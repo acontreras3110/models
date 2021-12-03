@@ -1,4 +1,3 @@
-// @ts-ignore
 import _Joi from 'joi';
 import JoiDate from '@joi/date';
 

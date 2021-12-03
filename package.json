@@ -1,5 +1,5 @@
 {
-  "name": "models",
+  "name": "models-ts",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -15,13 +15,14 @@
     "types": "tsc"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alejandro",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.16.0",
     "@babel/core": "^7.16.0",
     "@babel/node": "^7.16.0",
     "@babel/preset-typescript": "^7.16.0",
+    "prettier": "^2.5.0",
     "rimraf": "^3.0.2",
     "tsconfig-paths": "^3.12.0",
     "typescript": "^4.5.2"

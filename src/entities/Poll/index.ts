@@ -5,7 +5,7 @@ import IRepository from './repositories/IRepository';
 import schemas from './schemas';
 
 interface PollModel extends JoiSchema {
-	validate: (dataentity: Partial<IPoll>) => Validate;
+	validate: (datatype: Partial<IPoll>) => Validate;
 	entity: IRepository;
 }
 
