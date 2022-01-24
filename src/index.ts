@@ -6,7 +6,11 @@ export { default as ORM } from './orm';
 export { default as ORMConfig } from './orm/config';
 export type { ID } from './shared/interfaces/Id';
 
-// import Poll from './entities/Poll/schemas/SequelizeModel';
+// //este es un ejemplo en caso de querer realizar una consulta a la aplicacion
+// //debemos descomentar y ejecutar yarn start para ver que es lo que trae
+//
+// // connect ECONNREFUSED > base de datos no conectada
+//
 // import pollModel from './entities/Poll';
 //
 // // CREATE
